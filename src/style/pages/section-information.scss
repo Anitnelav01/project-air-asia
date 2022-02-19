@@ -1,0 +1,45 @@
+.information-block {
+  background-image: url(/images/mountains.png);
+  background-repeat: no-repeat;
+  width: 785px;
+  position: absolute;
+  margin-top: 97px;
+  margin-top: 97px;
+  margin-left: 355px;
+}
+
+.information-title {
+  padding: 65px 0 37px 65px;
+  color: $black;
+  margin: 0;
+}
+
+.information-text {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 0 220px 0 65px;
+  color: $black;
+  margin-bottom: 43px;
+}
+
+.information-button {
+  margin: 0 0 81px 66px;
+  background: $red;
+  color: $white;
+  border: 2px solid $red;
+
+  &:hover {
+    background: $white;
+    color: $red;
+  }
+
+
+}
+
+.section-information {
+  padding-bottom: 100px;
+  border-bottom: 0.5px solid;
+  border-color: darkgray;
+  display: flex;
+  position: revert;
+}

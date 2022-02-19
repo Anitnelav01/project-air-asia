@@ -1,0 +1,143 @@
+section.form {
+  background: #F4F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+.form__title {
+  font-size: 48px;
+  line-height: 56px;
+  color: $black;
+  margin: 0;
+  padding: 68px 0 57px;
+}
+
+.reviews-form {
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 26px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    input {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      width: 44%;
+      margin: 0 28px 0 0;
+      padding: 19px 20px 21px 30px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+
+      &:focus {
+        border: 1px solid $red;
+      }
+
+
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+textarea {
+  overflow: auto;
+  width: 1074px;
+  height: 235px;
+  resize: none;
+  padding: 30px 30px 30px 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  &:focus {
+    border: 1px solid $red;
+  }
+}
+
+.question {
+  font-size: 18px;
+  line-height: 21px;
+  color: $black;
+  margin-right: 73px;
+  flex: 0 49%;
+}
+
+.question-block {
+  display: flex;
+}
+
+.question-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  a {
+    background: #E7E7E7;
+    margin-right: 10px;
+    padding: 10px 14px;
+    border-radius: 19px;
+    margin-bottom: 10px;
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      background: #B9EAE4;
+    }
+
+    &:active {
+      background: #B9EAE4;
+    }
+  }
+}
+
+.form-button {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 96px;
+}
+
+.question-button {
+  margin-right: 17px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.question-button.block-button{
+  background: #8E8E8E;
+  color: $white;
+  border: none;
+  &:hover{
+    background: #2B2B2B;
+    color: $white;
+  }
+  &:active{
+    background: #2B2B2B;
+    color: $white;
+  }
+}
+
+.question-button {
+  background: $red;
+  color: $white;
+  border: 2px solid $red;
+
+  &:hover {
+    background: $white;
+    color: $red;
+  }
+  &:active{
+    background: $white;
+    color: $red;
+  }
+}

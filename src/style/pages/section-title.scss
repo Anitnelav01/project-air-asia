@@ -1,0 +1,32 @@
+.content-title {
+  margin: 100px 0 27px 0;
+}
+
+.content-text {
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+  font-weight: 200;
+}
+
+.content-button {
+  margin-bottom: 245px;
+}
+
+.content-button {
+  background: $red;
+  color: $white;
+  border: 2px solid $red;
+
+  &:hover {
+    background: $white;
+    color: $red;
+  }
+  &:active{
+    background: $white;
+    color: $red;
+  }
+
+}

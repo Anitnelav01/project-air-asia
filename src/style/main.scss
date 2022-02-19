@@ -1,0 +1,28 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+$white:#FFF;
+$black:#000000;
+$red:#F5170E;
+
+//index.html//
+@import "./includes/body.scss";
+@import "./pages/header.scss";
+@import "./pages/info.scss";
+@import "./pages/section-title.scss";
+@import "./pages/section-block.scss";
+@import "./pages/section-news.scss";
+@import "./pages/pagination.scss";
+@import "./pages/section-information.scss";
+@import "./pages/footer.scss";
+
+
+//reviews.html//
+@import "./pages/section-banner.scss";
+@import "./pages/section-reviews.scss";
+@import "./pages/header-background.scss";
+@import "./pages/section-form.scss";
+
+
+///services.html///
+@import "./pages/section-services.scss";
+@import "./pages/section-partners.scss";

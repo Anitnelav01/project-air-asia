@@ -1,0 +1,25 @@
+.banner {
+  background-image: url(/images/Rectangle.png);
+  background-repeat: no-repeat;
+  height: 363px;
+}
+
+.container-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-banner {
+  img {
+    margin-right: 10px;
+    
+    height: 95%;
+    align-self: flex-end;
+
+  }
+}
+
+.banner-subtitle {
+  align-self: center;
+  margin: 0;
+}

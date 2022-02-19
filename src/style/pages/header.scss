@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  margin-bottom: 50px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 13px;
+}
+
+.menu-items {
+  a {
+    color: $white;
+    margin-right: 54px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+
+    &:last-child {
+      margin-right: 0px;
+      ;
+    }
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+}
+
+.header__logo {
+  width: 85px;
+  height: 36px;
+  margin-right: 79px;
+}
+
+.header-continer {
+  display: flex;
+}
+
+.info-phone {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.info-title {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 200;
+  text-align: end;
+  position: relative;
+  display: inline-block;
+
+  &:hover {
+    color: $white;
+  }
+
+  &:hover .info-hidden {
+    display: block;
+    right: 0;
+    margin-top: 5px;
+
+  }
+
+}
+
+
+
+
+.info-hidden {
+  display: none;
+  position: absolute;
+  background-color: $white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 500;
+  color: $black;
+  border-radius: 10px;
+
+
+  &:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: $white;
+    top: -7px;
+    right: 34px;
+    position: absolute;
+    transform: rotate(134deg);
+  }
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  &:first-of-type {
+    font-weight: bold;
+  }
+}
+
+
+/////////header -reviews///////////
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 86px;
+}
+
+.heade__review-title {
+  margin-bottom: 114px;
+}
+
+.breadcrumbs-items {
+  list-style: none;
+  display: flex;
+  margin: 0 0 23px;
+  padding: 0;
+
+  a {
+    text-decoration: none;
+    color: #9A9A9A;
+    padding-right: 10px;
+
+    &:last-child {
+      padding-right: 0;
+      font-weight: bold;
+    }
+
+    &:first-child {
+
+      &::after {
+        content: "/";
+        padding-left: 5px;
+      }
+    }
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

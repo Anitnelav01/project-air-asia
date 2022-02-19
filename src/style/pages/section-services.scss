@@ -1,0 +1,50 @@
+.services {
+  padding-top: 98px;
+}
+
+.list-services {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.item-list {
+  display: flex;
+  margin-bottom: 50px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.content-services {
+  color: $black;
+}
+.item-image {
+  margin-right: 56px;
+}
+
+.text-services {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 36px;
+}
+
+.title-services{
+  margin: 10px 0 28px 0;
+}
+
+.button-services{
+  background:  $white;
+  border: 2px solid $red;
+  font-weight: bold;
+  color: $red;
+  &:hover{
+    background: $red;
+    color: $white;
+  }
+  &:active{
+    background: $red;
+    color: $white;
+  }
+}

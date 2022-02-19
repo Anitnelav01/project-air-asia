@@ -1,0 +1,39 @@
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: $white;
+}
+
+.partners__title {
+  align-self: flex-start;
+  color: $black;
+  margin-bottom: 100px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.icon__partners {
+a{
+  flex-grow: 1;
+    display: block;
+    padding: 30px 25px;
+    text-align: centr;
+  img{
+    filter: grayscale(100%);
+    &:hover{
+      filter: none;
+    }
+  }
+}
+}
+.partners__list {
+  margin-bottom: 120px;
+}

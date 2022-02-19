@@ -1,0 +1,90 @@
+.section-block {
+  margin-bottom: 127px;
+}
+
+.blocks-items {
+  display: flex;
+}
+
+.blocks-item {
+  background: $white;
+  width: 362px;
+  margin-right: 20px;
+  border-radius: 5px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.container-block {
+  padding: 0 28px 26px;
+}
+
+.block-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: $white;
+  margin-top: 33px;
+  
+  &::after{
+    content: url(/icons/flame.svg);
+    width: 28px;
+    height: 21px;
+    margin-left: 12px;
+  }
+}
+
+.item-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  color: $black;
+  margin-top: 33px;
+}
+
+
+
+.block-info {
+  margin-bottom: 25px;
+  display: flex;
+  color: #666666;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+}
+
+.block-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  padding-right: 30px;
+  margin-bottom: 24.5px;
+}
+
+.block-info__icon {
+  margin-right: 10px;
+}
+.block-info__text {
+  margin-right: 28px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.block-button {
+  background:  $white;
+  border: 2px solid $red;
+  font-weight: bold;
+  color: $red;
+  &:hover{
+    background: $red;
+    color: $white;
+  }
+  &:active{
+    background: $red;
+    color: $white;
+  }
+}
